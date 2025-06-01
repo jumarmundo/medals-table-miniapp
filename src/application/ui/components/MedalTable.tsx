@@ -33,8 +33,12 @@ export default function MedalTable({
       <table className="w-100 text-center border-collapse table-fixed">
         <thead className="border-b-3 border-solid border-b-gray-500 text-sm text-gray-500">
           <tr>
-            <th className="w-1/24 px-4 py-2" scope="col"></th>
-            <th className="w-5/12 px-4 py-2" scope="col"></th>
+            <th className="w-1/24 px-4 py-2" scope="col" aria-label="Rank"></th>
+            <th
+              className="w-5/12 px-4 py-2"
+              scope="col"
+              aria-label="Country"
+            ></th>
             {SORT_KEYS.map((key) => (
               <th
                 key={key}

@@ -41,7 +41,7 @@ export default function FlagIcon({ code }: FlagIconProps) {
         display: "inline-block",
         backgroundImage: "url('/sprites/flags.png')",
         backgroundRepeat: "no-repeat",
-        backgroundPosition: `${posX}px ${posY}px`,
+        backgroundPosition: `${posX}px ${posY}px`, // this is the whole reason why we're not using tailwind here
         width: isSquare ? TILE_H + 1 : TILE_W,
         height: TILE_H,
         margin: isSquare ? `0 ${horizontalCrop}px` : undefined,
