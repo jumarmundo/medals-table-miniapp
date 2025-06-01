@@ -55,7 +55,7 @@ export default function MedalTable({
                 }}
                 className={clsx(
                   "py-2 text-sm cursor-pointer transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 uppercase",
-                  sortKey === key && "border-t-2"
+                  sortKey === key && "border-t-3"
                 )}
               >
                 <span
