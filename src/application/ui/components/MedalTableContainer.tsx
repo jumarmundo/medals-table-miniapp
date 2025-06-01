@@ -20,11 +20,11 @@ export default function MedalTableContainer({
     setSortKey(sortKey);
   };
 
-  const sorted = useSortMedals(initialData, sortKey);
+  const sortedCountries = useSortMedals(initialData, sortKey);
 
   return (
     <MedalTable
-      countries={sorted}
+      countries={sortedCountries}
       sortKey={sortKey}
       onSortChange={handleSort}
     />
