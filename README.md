@@ -1,5 +1,5 @@
 # Medal Count Mini-app
-![image](https://github.com/user-attachments/assets/ac813c4a-b1ae-4b8d-aa22-64d2a7326195)
+![image](https://github.com/user-attachments/assets/a4fbefb4-5a2f-4c9e-947f-a976698021ad)
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -33,6 +33,7 @@ Developed using Node version 20.11.0
     <tr>
       <td valign="top">
         <ul>
+          <li>Display up to 10 countries</li>
           <li>
             Accept a sort parameter from the URL with one of:
             <code>total</code>, <code>gold</code>, <code>silver</code>, <code>bronze</code>
