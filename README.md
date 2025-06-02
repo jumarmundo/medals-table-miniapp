@@ -5,9 +5,7 @@
 - [Getting Started](#getting-started)
   - [Running the app](#running-the-app)
   - [Running tests](#running-tests)
-- [Features](#features)
-  - [Functional](#functional)
-  - [Non-functional](#non-functional)
+- [Features Implemented](#features-implemented)
 - [Assumptions](#assumptions)
 
 ## Getting Started
@@ -20,7 +18,7 @@ Developed using Node version 20.11.0
 ### Running tests
 1. Run `npm run test` in the root directory
 
-## Features
+## Features Implemented
 
 <table>
   <thead>
