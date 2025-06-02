@@ -13,7 +13,7 @@ export async function getSortedMedals(
     const repo: ICountryRepository = new CountryRepository();
     const countries = await repo.fetchAll();
     const countryDTOs = countries.map((country) => country.toDTO());
-    return MedalSorter.sort(countryDTOs, sortKey);
+    return MedalSorter.sort(countryDTOs, sortKey).slice(-10);
   } catch (error) {
     console.log("Error occurred in application service", error);
     throw new Error(
