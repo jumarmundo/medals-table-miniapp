@@ -12,8 +12,9 @@
 Developed using Node version 20.11.0
 ### Running the app
 1. Run `npm install` in the root directory
-2. Run `npm run dev` in the root directory
-3. Navigate to [http://localhost:3000/](http://localhost:3000/)
+2. Create a new file in the root directory named `.env` and include the following: `API_URL="http://localhost:3000"`
+3. Run `npm run dev` in the root directory
+4. Navigate to [http://localhost:3000/](http://localhost:3000/)
 
 ### Running tests
 1. Run `npm run test` in the root directory
